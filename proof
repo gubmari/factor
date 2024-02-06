@@ -1,0 +1,10 @@
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
+
+dayjs.extend(utc).extend(timezone);
+
+// ...
+<LocalizationProvider dateAdapter={AdapterDayjs}>
+      // ...
+</LocalizationProvider>
