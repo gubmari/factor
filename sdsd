@@ -1,1 +1,1 @@
-#SD
+var(--bgColor-white, var(--color-scale-white))
